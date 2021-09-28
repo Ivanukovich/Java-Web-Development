@@ -10,7 +10,7 @@ public class FileController {
         this.file = file;
     }
 
-    String readFile(){
+    public String readFile(){
         StringBuilder text = new StringBuilder();
         try {
             Scanner reader = new Scanner(new FileReader(file));
